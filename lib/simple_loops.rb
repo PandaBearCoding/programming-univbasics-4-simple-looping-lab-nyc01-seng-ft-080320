@@ -1,22 +1,13 @@
 # Write your methods here
 
-
-
-
-
-
-
-
-array_1 = ["Loop message five times", "Loop message five times", "Loop message five times", "Loop message five times", "Loop message five times"]
-
-def loop_message_five_times(array_1)
-  counter = 0
+describe 'loop_message_five_times' do
   
-while array_1[counter]
-    counter += 1
+  it 'takes in a message and outputs it five times' do
+    message = "Hello World."
+    expect { loop_message_five_times(message) }.to output(/Hello World.\n/).to_stdout
+    expect { loop_message_five_times(message) }.to output(/Hello World.\nHello World.\nHello World.\nHello World.\nHello World./).to_stdout, "Expected the input message to be output five times using puts:\n\nHello World.\nHello World.\nHello World.\nHello World.\nHello World.\n"
   end
 end
 
-array_2 = ["Loop message n times"]
-def loop_message_n_times(array_2)
-  counter = n
+
+def loop_message_five_times("Hello World.")
