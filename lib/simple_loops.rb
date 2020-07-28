@@ -1,6 +1,6 @@
 # Write your methods here
 
-array_1 = ["Loop message five times", "Loop message five times", "Loop message five times", "Loop message five times"]
+array_1 = ["Loop message five times", "Loop message five times", "Loop message five times", "Loop message five times", "Loop message five times"]
 
 def loop_message_five_times(array_1)
   counter = 0
