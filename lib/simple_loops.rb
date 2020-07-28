@@ -1,15 +1,15 @@
 # Write your methods here
 
-Loop_message_five_times = ["Loop message five times"]
+array_1 = ["Loop message five times"]
 
-def loop_message_five_times("Loop message five times")
+def loop_message_five_times(array_1)
   counter = 0
   
-while loop_message_five_times[counter]
-    puts loop_message_five_times[counter]
+while array_1[counter]
     counter += 1
   end
 end
 
-Loop_message_five_times = ["Loop message five times"]
-loop_message_n_times
+array_2 = ["Loop message n times"]
+def loop_message_n_times(array_2)
+  counter = n
