@@ -5,5 +5,9 @@ def loop_message_five_times(str)
   counter = 0
 
 while str[counter] do
-puts message
+  puts str[counter]
+  counter += 1
+end
+end
+
 
