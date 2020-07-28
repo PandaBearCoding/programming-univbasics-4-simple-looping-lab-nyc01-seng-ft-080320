@@ -11,4 +11,5 @@ while loop_message_five_times[counter]
   end
 end
 
+Loop_message_five_times = ["Loop message five times"]
 loop_message_n_times
